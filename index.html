@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ZhaoLab - ShanghaiTech University</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='js/camera.min.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+
+			jQuery('#camera_wrap_2').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true
+			});
+		});
+		</script>
+		<!--start lightbox -->
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+<script src="js/jquery.lightbox.js"></script>
+<script>
+  // Initiate Lightbox
+  $(function() {
+    $('.gallery a').lightbox(); 
+  });
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="main-header">
+			<div class="inner-side">
+				<div class="header">
+					<div class="logo">
+						<h1><a href="index.html"><span>ZhaoLab</span></a></h1>
+						<h5><b>iHuman Institute - ShanghaiTech University</b></h5>
+						<a href="index-CN.html"><h5 style="float:right;padding-right:6em"><b>中文</b></h5></a>
+
+					</div>
+					<div class="head-top">
+						<div class="top-menu">
+						<span class="menu"><img src="images/nav.png" alt=""/> </span>
+							<ul>
+								<li class="active"><a href="index.html"><span>Home</span></a></li>
+								<li><a href="openings.html"><span>Openings</span></a></li>
+								<li><a href="research.html"><span>Research</span></a></li>
+								<li><a href="publications.html"><span>Publications</span></a></li>
+								<li><a href="people.html"><span>Members</span></a></li>
+								<li><a href="resource.html"><span>Resource</span></a></li>
+															
+							</ul>
+						</div>
+						<!-- script for menu -->
+									
+							 <script>
+							 $("span.menu").click(function(){
+							 $(".top-menu ul").slideToggle("slow" , function(){
+							 });
+							 });
+							 </script>
+						<!-- //script for menu -->
+
+						<div class="clearfix"></div>
+					</div>
+					
+				</div>
+				<div class="fluid_container">
+					<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+						<div data-thumb="" data-src="images/11.jpg"></div>
+						<div data-thumb="" data-src="images/111.jpg"></div>        
+					</div>
+					<!-- #camera_wrap_1 -->
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="interior-grids">
+					<div class="col-md-4 interior-grid">
+						<a href="research.html"><h3>Research</h3></a>
+						<div class="gallery">
+							<!-- <a href="images/research.jpg"><img src="images/research.jpg" class="img-responsive" alt="/" title="image-name"></a> -->
+							<img src="images/research.jpg" class="img-responsive" alt="/" title="Research">
+						</div>		
+						<p>My research group aim to develop and apply methods to gain understanding of protein sequence-structure-function relationship. We work on two systems: enzymes and transmembrane receptors. </p>
+					</div>
+					<div class="col-md-4 interior-grid">
+						<a href="publications.html"><h3>Publications</h3></a>
+						<div class="gallery">
+							<img src="images/publications.jpg" class="img-responsive" alt="/" title="Publications">
+						</div>		
+						<p>Complete journal publication list from 2004 to present.</p>
+					</div>
+					<div class="col-md-4 interior-grid">
+						<a href="people.html"><h3>Lab Members</h3></a>
+						<div class="gallery">
+							<img src="images/people.JPG" class="img-responsive" alt="/" title="Lab Members">
+						</div>		
+						<p>The Zhaolab is made up of a diverse group of ​undergraduate, graduate, postdoctoral students, and research assistants.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="bottom-grids">
+				
+			<div class="new-grids col-md-12">
+				<div class="col-md-6 new-grid">
+					<div class="new-text">
+						<h5>Quick Links</h5>
+						<ul>
+							<li><a href="http://ihuman.shanghaitech.edu.cn/" target="_blank"> > iHuman Institute</a></li>
+							<li><a href="http://www.shanghaitech.edu.cn/eng/" target="_blank"> > ShanghaiTech University</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 new-grid">	
+					<div class="new-text">
+						<h5>Contact Us</h5>
+						<ul>
+							<li><a> Address: 393 Middle Huaxia Road, Pudong, Shanghai, 201210</a></li>
+							<li><a> Phone: (+86)-21-20685005</a></li>
+							<li><a> Email: zhaosw@shanghaitech.edu.cn</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+				<!--start-footer-section-->
+		<div class="footer-section">
+			<div class="footer-top">
+				<p>Copyright &copy; 2014-2018 Zhaosuwen Laboratory. STU All Rights Reserved. Designed by Zhaolab.</p>
+			</div>
+		</div>
+				<!--end-footer-section-->
+			</div>
+		</div>
+	</div>
+	 </body>
+</html> 

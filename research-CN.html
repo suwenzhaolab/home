@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ZhaoLab - ShanghaiTech University</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='js/camera.min.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+
+			jQuery('#camera_wrap_2').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true
+			});
+		});
+		</script>
+		<!--start lightbox -->
+		<!--start lightbox -->
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+<script src="js/jquery.lightbox.js"></script>
+<script>
+  // Initiate Lightbox
+  $(function() {
+    $('.gallery a').lightbox(); 
+  });
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="main-header">
+			<div class="inner-side">
+				<div class="header">
+					<div class="logo">
+						<h1><a href="research.html" style="font-family:SimHei;font-size:0.7em"><span>赵素文课题组</span></a></h1>
+						<h5><b>iHuman研究所 - 上海科技大学</b></h5>
+						<a href="research.html"><h5 style="float:right;padding-right:6em"><b>EN</b></h5></a>
+					</div>
+					<div class="head-top">
+						<div class="top-menu">
+						<span class="menu"><img src="images/nav.png" alt=""/> </span>
+							<ul>
+								<li><a href="index-CN.html"><span>主页</span></a></li>
+								<li><a href="openings-CN.html"><span>人员招聘</span></a></li>
+								<li class="active"><a href="research-CN.html"><span>研究工作</span></a></li>
+								<li><a href="publications-CN.html"><span>发表论文</span></a></li>
+								<li><a href="people-CN.html"><span>课题组成员</span></a></li>
+								<li><a href="resource-CN.html"><span>资源</span></a></li>
+							</ul>
+						</div>
+						<!-- script for menu -->
+									
+							 <script>
+							 $("span.menu").click(function(){
+							 $(".top-menu ul").slideToggle("slow" , function(){
+							 });
+							 });
+							 </script>
+						<!-- //script for menu -->
+
+						<div class="clearfix"></div>
+					</div>
+					
+				</div>
+					<div class="about-grids">	
+						<div class="col-md-12 about-grid">
+							<h4>“Structure without function is a corpse,  
+							 function without structure is a ghost” </h4> 
+							 <p></p>
+						<img src="images/ssf.PNG" width=70%>
+						<p>赵素文实验室致力于开发和应用计算方法来理解蛋白质序列-结构-功能之间的关系。主要研究体系有酶和膜蛋白（GPCRs, Transporters, Channels）。 </p>						
+
+						</div>
+						
+						<div class="col-md-12 about-grid">
+						<p></p>	
+						<p></p>							
+		
+						<h4> GPCR机理研究和配体发现</h4>
+						<p></p>	
+						<img src="images/activation.png" width=60%>
+						<p></p>
+						<p>G蛋白偶联受体（GPCR）家族成员可以感知种类繁多的胞外信号并传递到胞内，它们在几乎各种生理和病理过程中都起着重要的作用。我们课题组致力于开发计算方法来理解GPCR体系中的关键问题，包括：
+（a）	通用激活机理
+（b）	通路偏好机理
+（c）	G蛋白选择性机理
+
+基于对这些机理的理解，我们对GPCR进行基于结构和机理的配体开发，特别是别构调节剂和具有通路偏好性的配体开发。</p>
+
+
+						    <p>整合配体对接（Integrative Ligand Docking）： GPCR已经被深入研究了许多年，多个GPCR的已知配体个数都超过了1000。但其中很多配体（特别是别构调节剂）的结合位点以及结合模式仍然未知。过去十年GPCR结构生物学的迅猛发展为探索这些配体的结合位点和结合模式提供了有利条件。 我们开发了整合配体对接的方法， 综合采用系综对接、柔性对接，突变、SAR、活性、选择性以及其它数据，可以准确地找到这些配体的结合位点，并在此基础上理解他们的活性机制。</p>
+						</div>
+						
+						
+						</div>
+						<div class="col-md-12 about-grid">
+						<p></p>	
+						<p></p>								
+						<h4>开发方法来发现全新的酶功能，全新的代谢物（特别是天然产物），及全新的代谢通路</h4>
+						<p></p>	
+						<img src="images/g-2-np.png" width=70%>
+									<p></p>	
+						<p>	    
+						随着测序技术的进步，数据库中蛋白序列条数爆炸性增长，但功能经过实验验证的蛋白很少，不足1%， 有结构的就更少。序列和结构与功能之间的不断加深的鸿沟只能靠计算-实验之间的循环验证来填充。
+						传统生信中的注释转移法只能用于把蛋白的已知功能扩展到其他未知功能的蛋白上，不但容易出错，而且不易发现新的功能和新的代谢物。
+						我们课题组致力于开发方法来发现全新的酶功能，全新的代谢物（特别是天然产物），及全新的代谢通路。</p>
+						<p>我们拥有的工具：
+						（1）通路分子对接；
+						（2）序列相似性网络；
+						（3）基因组临近区网络；
+						（4）机器学习。</p>
+						<p></p>	
+
+						</div>
+
+					 </div>
+					
+				<!--start-footer-section-->
+			<div class="new-grids col-md-12">
+				<div class="col-md-6 new-grid">
+					<div class="new-text">
+						<h5>快速链接</h5>
+						<ul>
+							<li><a href="http://ihuman.shanghaitech.edu.cn/" target="_blank"> > iHuman 研究所</a></li>
+							<li><a href="http://www.shanghaitech.edu.cn/eng/" target="_blank"> > 上海科技大学</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 new-grid">	
+					<div class="new-text">
+						<h5>联系我们</h5>
+						<ul>
+							<li><a> 地址: 上海市浦东新区华夏中路393号</a></li>
+							<li><a> 邮编: 201210</a></li>
+							<li><a> 邮箱: zhaosw(at)shanghaitech.edu.cn</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+				<!--start-footer-section-->
+		<div class="footer-section">
+			<div class="footer-top">
+				<p>Copyright &copy; 2014-2018 Zhaosuwen Laboratory. STU All Rights Reserved. Designed by Zhaolab.</p>
+			</div>
+		</div>
+	<!--end-footer-section-->
+			</div>
+		</div>
+	</div>
+ </body>
+</html> 
